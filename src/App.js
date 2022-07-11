@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import { Layout } from 'antd';
 
 import './App.css';
-import { Exchanges, News, Cryptocurrencies, CryptoDetails, Navbar, Footer } from './components';
+import { Exchanges, News, Cryptocurrencies, CryptoDetails, Navbar, Footer, Homepage } from './components';
 
 const App = () => (
   <div className="app">
