@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Space } from 'antd';
+import { Switch, Route } from 'react-router-dom';
+import { Layout } from 'antd';
 
 import './App.css';
-import { Exchanges, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import { Exchanges, News, Cryptocurrencies, CryptoDetails, Navbar, Footer } from './components';
 
 const App = () => (
   <div className="app">
@@ -34,7 +34,7 @@ const App = () => (
         </div>
       </Layout>
     </div>
-    <div className="footer" />
+    <Footer />
   </div>
 );
 
