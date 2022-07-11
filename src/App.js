@@ -33,8 +33,8 @@ const App = () => (
           </Switch>
         </div>
       </Layout>
+      <Footer />
     </div>
-    <Footer />
   </div>
 );
 
