@@ -10,7 +10,6 @@ const LineChart = ({ coinHistory, currentPrice, coinName, timeperiod }) => {
   const coinTimestamp = [];
 
   for (let i = coinHistory?.data?.history?.length - 1; i >= 0; i -= 1) {
-    console.log(coinHistory?.data?.history[i].price);
     coinPrice.push(coinHistory?.data?.history[i].price);
   }
 
