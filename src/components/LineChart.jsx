@@ -5,17 +5,23 @@ import { Col, Row, Typography } from 'antd';
 
 const { Title } = Typography;
 
-const LineChart = ({ coinHistory, currentPrice, coinName }) => {
+const LineChart = ({ coinHistory, currentPrice, coinName, timeperiod }) => {
   const coinPrice = [];
   const coinTimestamp = [];
 
-  for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
+  for (let i = coinHistory?.data?.history?.length - 1; i >= 0; i -= 1) {
+    console.log(coinHistory?.data?.history[i].price);
     coinPrice.push(coinHistory?.data?.history[i].price);
   }
 
-  for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
-    coinTimestamp.push(new Date(coinHistory?.data?.history[i].timestamp).toLocaleDateString());
+  for (let i = coinHistory?.data?.history?.length - 1; i >= 0; i -= 1) {
+    coinTimestamp.push(
+      timeperiod === '24h' || timeperiod === '3h'
+      ? new Date(coinHistory?.data?.history[i].timestamp * 1000).toLocaleTimeString()
+      : new Date(coinHistory?.data?.history[i].timestamp * 1000).toLocaleDateString(),
+      );
   }
+
   const data = {
     labels: coinTimestamp,
     datasets: [
