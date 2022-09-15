@@ -33,12 +33,10 @@
 </details>
 
 <h1 align="center">
-    ShoesEccomerce
+    Cryptoverse
 </h1>
 
-[🔗**shoesshop-client.herokuapp.com**][deploy-url]
-
-[🔗**shoesshop-dashboard.herokuapp.com**][dash-deploy-url]
+[🔗**cryptocoinstoday.netlify.app**][deploy-url]
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -46,32 +44,21 @@
 <div align="center">
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="ShoesEccomerce" title="#ShoesEccomerceFront" src="./frontend/src/assets/demo.gif" > 
-  <img alt="ShoesEccomerce" title="#ShoesEccomerceFront" src="./frontend/src/assets/demo1.gif" > 
-  <img alt="ShoesEccomerce" title="#ShoesEccomerceDash" src="./dashboard/src/assets/demo.gif" > 
-  <img alt="ShoesEccomerce" title="#ShoesEccomerceDash" src="./dashboard/src/assets/demo1.gif" > 
+  <img alt="cryptocoins" title="#cryptocoins" src="./src/assets/demo.gif" > 
+  <img alt="cryptocoins" title="#cryptocoins" src="./src/assets/demo1.gif" > 
 
 </p>
 </div>
 
-Welcome to the _GitHub repository_ of my **ShoesEccomerce** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
+Welcome to the _GitHub repository_ of my **Crypto Coins** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
 
 If you're confused about where you are, try this [**this link**][deploy-url] to the deployed project instead 😄.
 
 **Some of the features**: 
 
-Display the cart’s total bill and update it whenever the cart is updated by the user.
-We are storing the JWT in Local Storage so that only logged-in users can purchase items.
-Option to pay and checkout, thereby creating an order and emptying the cart.
-Login and registration
-Purchase Product.
-Check Purchase Status.
-PayPal Payment Option
-User Reviews
-Extensive Product Information
-Find-in-Store
-Update Profile
-Detailed Shipping Information
+See the news about crypto coins;
+
+See all the info about a crypto coins project 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,9 +66,6 @@ Detailed Shipping Information
 
 * [![React][React.js]][React-url]
 * [![Redux][Redux]][Redux-url]
-* [![NodeJS][Node.js]][node-url]
-* [![Express][Express.js]][express-url]
-* [![MongoDB][Mongo.db]][mongodb-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,48 +85,17 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/paulofelipebrito/ShoesEccomerce
+   git clone https://github.com/paulofelipebrito/cryptocoins-update-app
    ```
-2. Open server folder
-   ```sh
-   cd server 
-   ```
-   * Install NPM packages
+2. Install NPM packages
    ```sh
    npm install 
    ```
-   * Start the app with yarn
+3. Start the app with npm
    ```sh
    npm start 
-   ```
-3. Open frontend folder
-   ```sh
-   cd frontend 
-   ```
-   * Install NPM packages
-   ```sh
-   npm install 
-   ```
-   * Start the app with yarn
-   ```sh
-   npm start 
-   ```
-4. Open dashboard folder
-   ```sh
-   cd dashboard 
-   ```
-   * Install NPM packages
-   ```sh
-   npm install 
-   ```
-   * Start the app with yarn
-   ```sh
-   npm start 
-   ```  
-   
-5. Visit `http://localhost:3000/` on your browser
-   
-6. Visit `http://localhost:4000/` on your browser
+   ```   
+4. Visit `http://localhost:3000/` on your browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +146,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Paulo Felipe Brito - [LinkedIn](https://www.linkedin.com/in/paulofelipebrito/) - paulofelipebrito@hotmail.com
 
-Project Link: [https://github.com/paulofelipebrito/ShoesEccomerce](https://github.com/paulofelipebrito/ShoesEccomerce)
+Project Link: [https://github.com/paulofelipebrito/cryptocoins-update-app](https://github.com/paulofelipebrito/cryptocoins-update-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,27 +154,15 @@ Project Link: [https://github.com/paulofelipebrito/ShoesEccomerce](https://githu
 
 This project was developed with the following technologies:
 
-- ✔️ ReactJS:
-The frontend library would be React. Redux would be used for state management. For the basic design of the interface, we would employ the React Bootstrap library.
-  
-- ✔️ NodeJS: It is, by definition, a JavaScript runtime that is built on the well-known Chrome’s V8 JS engine and is known for being lightweight and efficient due to its use of an event-driven and non-blocking input-output model.
+- ✔️ ReactJS
 
-- ✔️ ExpressJS: It is essentially a back-end web-based framework that allows you to build web apps by providing an easy-to-use interface.
+- ✔️ Ant Design
 
-- ✔️ MongoDB:
-It is a NoSQL-based database. It is in charge of data storage exchange and execution, assisting Node.JS in running the server without issue.
+- ✔️ Axios
 
-- ✔️ Bcrypt
-
-- ✔️ JWT
-
-- ✔️ Mongoose
-
-- ✔️ Axios 
+- ✔️ Chart.js
 
 - ✔️ Redux
-
-- ✔️ Paypal api
 
 <!-- ACKNOWLEDGMENTS
 ## Acknowledgments
@@ -242,15 +183,15 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[contributors-url]: https://github.com/paulofelipebrito/ShoesEccomerce/graphs/contributors
+[contributors-url]: https://github.com/paulofelipebrito/cryptocoins-update-app/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[forks-url]: https://github.com/paulofelipebrito/ShoesEccomerce/network/members
+[forks-url]: https://github.com/paulofelipebrito/cryptocoins-update-app/network/members
 [stars-shield]: https://img.shields.io/github/stars/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[stars-url]: https://github.com/paulofelipebrito/ShoesEccomerce/stargazers
+[stars-url]: https://github.com/paulofelipebrito/cryptocoins-update-app/stargazers
 [issues-shield]: https://img.shields.io/github/issues/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[issues-url]: https://github.com/paulofelipebrito/ShoesEccomerce/issues
+[issues-url]: https://github.com/paulofelipebrito/cryptocoins-update-app/issues
 [license-shield]: https://img.shields.io/github/license/paulofelipebrito/githubprofiles.svg?style=for-the-badge
-[license-url]: https://github.com/paulofelipebrito/ShoesEccomerce/LICENSE.txt
+[license-url]: https://github.com/paulofelipebrito/cryptocoins-update-app/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paulofelipebrito/
 [product-screenshot]: images/screenshot.png
@@ -285,4 +226,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery-url]: https://jquery.com 
 [Typescript-url]: (https://www.typescriptlang.org)
 [deploy-url]: https://shopshoes-client.herokuapp.com
-[dash-deploy-url]: https://shoesshop-dashboard.herokuapp.com/login
+[dash-deploy-url]: https://cryptocoinstoday.netlify.app
